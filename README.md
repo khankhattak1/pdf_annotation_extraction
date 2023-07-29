@@ -8,4 +8,4 @@ The main purpose is of this tools is easy access to and viwing ofannotatios made
 
 
 
-Kindly suggest improvemnts or new features
+Kindly suggest improvemnts or new features in the discussion tab
