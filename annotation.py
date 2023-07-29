@@ -1,5 +1,6 @@
 import streamlit as st
 import fitz  # PyMuPDF
+import PyMuPDF
 import os
 
 def extract_annotations_with_content(pdf_file):
@@ -149,5 +150,10 @@ def display_annotations_via_streamlit():
         os.remove("temp.pdf")
 
 if __name__ == "__main__":
+    # Create a 'static' directory in the current working directory if it doesn't exist
+    if not os.path.exists('static'):
+        os.makedirs('static')
+
+    # Display annotations via streamlit
     display_annotations_via_streamlit()
     
