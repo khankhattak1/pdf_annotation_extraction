@@ -154,8 +154,8 @@ def display_annotations_via_streamlit():
 
 if __name__ == "__main__":
     # Create a 'static' directory in the current working directory if it doesn't exist
-    # if not os.path.exists('static'):
-    #     os.makedirs('static')
+    if not os.path.exists('static'):
+        os.makedirs('static')
 
     # Display annotations via streamlit
     display_annotations_via_streamlit()
