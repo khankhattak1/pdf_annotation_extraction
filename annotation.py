@@ -105,7 +105,7 @@ def display_annotations_via_streamlit():
 
     if uploaded_file:
         # Save the uploaded file temporarily
-        with open("temp.pdf", "wb", encoding="utf-8") as f:
+        with open("temp.pdf", "wb") as f:
             f.write(uploaded_file.getbuffer())
 
         annotations_list = extract_annotations_with_content("temp.pdf")
