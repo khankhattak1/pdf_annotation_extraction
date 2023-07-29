@@ -1,4 +1,7 @@
 import streamlit as st
+# Set the STATIC_PATH to the 'static/' directory before importing fitz
+st.set_option('server.staticDir', 'static')
+
 import fitz  # PyMuPDF
 import PyMuPDF
 import os
@@ -64,7 +67,7 @@ def extract_annotations_with_content(pdf_file):
 
     return annotations
 def display_annotations_via_streamlit():
-
+    
     st.title("PDF Annotation Extractor")
     st.info("This app allows you to extract annotations from PDF files. With this app Underlined, Strikethrough, Highlightes, Text annotation wil have content displayed")
     uploaded_file = st.file_uploader("Choose a PDF file", type=["pdf"])
