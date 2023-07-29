@@ -1,7 +1,4 @@
 import streamlit as st
-# Set the STATIC_PATH to the 'static/' directory before importing fitz
-st.set_option('server.staticDir', 'static')
-
 import fitz  # PyMuPDF
 import PyMuPDF
 import os
