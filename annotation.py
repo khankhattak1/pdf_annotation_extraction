@@ -1,6 +1,5 @@
 import streamlit as st
 import fitz  # PyMuPDF
-import PyMuPDF
 import os
 
 def extract_annotations_with_content(pdf_file):
