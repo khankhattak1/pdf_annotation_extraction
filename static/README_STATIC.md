@@ -1,0 +1,1 @@
+This directory is created for the purpose of removing RUNTIME Erroe : Director ?Static Doesnot exist.
