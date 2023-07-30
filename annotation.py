@@ -10,7 +10,6 @@ def extract_annotations_with_content(pdf_file):
 
     Parameters:
         pdf_file (str): The path to the input PDF file.
-
     Returns:
         list: A list of dictionaries, where each dictionary represents an annotation with keys:
               - "page": The page number (1-indexed) where the annotation is found.
