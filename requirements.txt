@@ -13,8 +13,6 @@ decorator==5.1.1
 docopt==0.6.2
 etelemetry==0.3.0
 filelock==3.12.2
-fitz==0.0.1.dev2
-frontend==0.0.3
 future==0.18.3
 gitdb==4.0.10
 GitPython==3.1.32
@@ -64,7 +62,6 @@ smmap==5.0.0
 streamlit==1.25.0
 tenacity==8.2.2
 toml==0.10.2
-tools==0.1.9
 toolz==0.12.0
 tornado==6.3.2
 traits==6.3.2
