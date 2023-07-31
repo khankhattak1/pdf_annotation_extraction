@@ -34,7 +34,7 @@ In the terminal, type the following after creating a directory
 ```
 
 ## Deployed Application URL
-Streamlit link: https://pdfannotationextraction-bnpdb9ndtwugqj5wbgewbd.streamlit.app/
+Streamlit link: https://pdfannotationextraction-tool.streamlit.app/
 
 
 ### NOTE : Kindly suggest improvemnts or new features in the discussion tab
