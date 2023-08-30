@@ -47,6 +47,22 @@ def extract_annotations_with_content(pdf_file):
             elif annotation_type == 0:  # Text annotation
                 content = annot.info.get("content", "")
 
+            # Handle squiggly underline annotations
+            elif annotation_type == 10:  # Squiggly annotation
+                content = "Squiggly Underline"
+
+            # Handle signature annotations
+            elif annotation_type == 12:  # Signature annotation
+                content = "Signature " + annot.info.get("content", "")
+
+            # Handle shape annotations
+            elif 1 <= annotation_type <= 7 & annotation_type != 3:  # Shape annotations (types 1 to 7)
+                content = "Shape"
+
+            # Extract the content of other annotations if available
+            else:
+                content = annot.info.get("content", "")
+
             annotation_data = {
                 "page": page_number + 1,  # Page number starts from 1, not 0
                 "type": annotation_type,
