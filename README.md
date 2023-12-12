@@ -1,9 +1,8 @@
 # Pdf Annotation Extraction Script
 
-This a pdf extraction tool written in python and deployed on streamlit. 
-It was created to Identifty and extract pdf annotations like Underlined Text, Highlighted Text, Strikethrough Text and Text Comments etc.
+This a pdf extraction tool written in python and deployed on streamlit. It was created to Identify and extract pdf annotations like Underlined Text, Highlighted Text, Strikethrough Text and Text Comments etc.
 
-The main purpose is of this tools is easy access to and viwing of annotatios made in PDF documents.
+The main purpose is of this tools is easy access to and viewing of annotations made in PDF documents.
 
 ## Prerequisites
 <ul>
